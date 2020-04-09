@@ -11,7 +11,7 @@ function addShare() {
 }
 
 function tweet() {
-    var link  = $('.highlight .media-body h3 a'),
+    var link  = $('.highlight .media-body h2 a'),
         href  = link.attr('href'),
         title = encodeURIComponent(link.text()),
         top   = (screen.height / 2) - (230 / 2),
