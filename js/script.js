@@ -5,7 +5,7 @@ function search() {
 }
 
 function addShare() {
-    var share = $('<div class="share"><button class="btn btn-primary btn-tweet" type="button">Tweet</button></div>');
+    var share = $('<div class="share"><button class="btn btn-primary btn-tweet" type="button">Press 't' to Tweet</button></div>');
     $('.share').remove();
     $('.highlight .media-body').append(share); 
 }
