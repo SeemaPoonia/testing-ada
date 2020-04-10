@@ -41,6 +41,6 @@ Mousetrap.bind({
     '/': search,
     't': tweet,
     '?': function modal() { $('#help').modal('show'); },
-    'j': function next() { highLight('j') },
-    'k': function prev() { highLight('k') }
+    'down': function next() { highLight('j') },
+    'up': function prev() { highLight('k') }
 });
